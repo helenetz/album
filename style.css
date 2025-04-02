@@ -1,0 +1,40 @@
+html{
+    background: #ae2727;
+}
+body{
+    background: hsl(0, 77%, 30%);
+    color: #ae2727;
+    margin: 0px;
+
+}
+
+h1{
+    color: #f0870f;
+
+}
+
+h2{
+    color: #f0870f;
+    
+}
+
+h3{
+    color: #f0870f;
+
+}
+ol{
+    color: #580404;
+    
+}
+
+p{
+    color: orange;
+}
+a{
+    color: #e57315;
+    text-decoration: none;
+}
+/*ceci est un commentaire en css*/
+img{
+    object-fit: cover;
+}
