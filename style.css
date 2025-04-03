@@ -2,6 +2,10 @@ html{
     background: linear-gradient(#b5230c,#e9cc94);
 ;
 }
+
+header{
+    place-self: ;
+}
 body{
 color: #ae2727;
 margin: 0px;
@@ -32,7 +36,7 @@ div p {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
+    text-decoration-color: transparent;
     background-size: 500% auto;
     animation: textShine 5s ease-in-out infinite alternate;
     font-size: x-large;
@@ -51,7 +55,12 @@ h3{
 }
 
 ol li{
-    color: #580404;
+
+    list-style: none; counter-reset: li
+
+    li::before {content: counter(li); color: red;
+        display: inline-block; width: 1em;
+        margin-left: -1em}   
 } 
 p{
     color: orange;
